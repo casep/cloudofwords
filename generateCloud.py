@@ -8,6 +8,7 @@ df = pd.read_csv(r"comments.csv", encoding ="latin-1")
 
 comment_words = ''
 stopwords = set(STOPWORDS)
+#some additional stopwords
 stopwords.add("lodge")
 stopwords.add("mason")
 stopwords.add("freemasonry")
